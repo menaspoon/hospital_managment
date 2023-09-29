@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+
+
+@font-face {
+  font-family: "IcoFont";
+  src: url("../font/18\ Khebrat\ Musamim\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "SmallFont";
+  src: url("../font/droid/ArbFONTS-Droid\ Arabic\ Kufi.ttf");
+}
+
+body {
+  text-align: right;
+  font-family: "Tajawal", sans-serif;
+  font-family: "SmallFont";
+}
+
+.Newsletter button {
+    float: left;
+}
+
+.about .manage {
+    text-align: center;
+}
+
+.bg-light .add-offer span {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 55px;
+  border-top-left-radius: 55px;
+  margin-left: 0px;
+  font-size: 13px;
+  margin-right: -7px;
+  padding: 9px 9px 4px 10px;
+}
+
+.bg-light .add-offer i {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 55px;
+  border-top-right-radius: 55px;
+}
+

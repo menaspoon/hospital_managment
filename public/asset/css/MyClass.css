@@ -1,0 +1,109 @@
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+.btnRed {
+    background-color: #d90a2c;
+    border-color: #d90a2c;
+    display: inline-block;
+    color: #fff !important;
+    padding: 10px 21px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.btnBlue {
+  background-color: #0062cc;
+  border-color: #0062cc;
+  display: inline-block;
+  color: #fff !important;
+  padding: 10px 21px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration:none;
+  outline: none
+}
+
+
+.btnSmall {
+    margin-top: 12px;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 9px 10px;
+}
+
+.button {
+  border-color: #0062cc;
+  display: inline-block;
+  color: #fff !important;
+  padding: 10px 21px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  text-decoration:none;
+  outline: none
+}
+
+.btnRed:hover {
+  text-decoration: none;
+}
+
+.Yellow {
+  background-color: #fdc100;
+}
+
+
+
+
+
+
+
+
+.FlexBox { display: flex;}
+.colorGreen { color:  #0be881;}
+
+
+
+
+
+
+
+
+
+
+/*
+تستخدم في الجداول الحالات
+*/
+.status-blue {
+  background: #0d6efd2b;
+  padding: 5px 10px;
+  color: #0d6efd;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.status-yallow {
+    background: #ffc10742;
+    padding: 5px 10px;
+    color: #be9003;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.status-green {
+  background: #00b74a47;
+  padding: 5px 10px;
+  color: #00b74a;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.status-red {
+  background: #dc35453d;
+  padding: 5px 10px;
+  color: #dc3545;
+  font-weight: 400;
+  display: inline-block;
+}

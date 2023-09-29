@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&family=Tajawal:wght@300&display=swap');
+
+
+@font-face {
+	font-family: "arabic";
+	src: url("../font/NotoNaskhArabic-VariableFont_wght.ttf");
+}
+
+body {
+  padding-right: 70px;
+  padding-top: 50px;
+  font-family: 'Readex Pro', sans-serif;
+  color: #061738;
+  text-decoration: none;
+  background: #f8f9fa;
+  transition: all 1s;
+  text-align: right !important;
+}
+
+
+span {
+    cursor: pointer;
+}
+
+
+fa-bars {
+    font-size: 30px;
+    position: fixed;
+    right: 40px;
+    top: 20px;
+}
+
+.lnr-menu {
+    font-size: 40px;
+    right: 70px;
+    position: absolute;
+}
+
+.lnr-cross {
+    font-size: 30px;
+    position: absolute;
+    right: 209px;
+    cursor: pointer;
+}
+
+.lnr-cross {
+    font-size: 41px;
+    position: absolute;
+    left: 240px;
+    cursor: pointer;
+
+}
+
+.menu-nav .fa-times {
+    float: left;
+    font-size: 26px;
+    padding: 15px;
+    color: #000000bf;
+}
+
+
+.menu-nav {
+    top: 0px;
+    position: fixed;
+    background: #fff;
+    box-shadow: 0px 0px 14px 0px #ccc;
+    right: -300px;
+    padding: 30px;
+    height: 100vh;
+    width: 300px;
+    z-index: 99;
+    margin-left: -306px;
+    transition: all 5px;
+    text-align: right;
+}
+
+
+.menu-nav ul {
+    cursor: pointer;
+    transition: all 0.5;
+    padding: 0px 6px 0px 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.menu-nav ul:hover {
+    cursor: pointer;
+    background-color: #eee
+}
+
+.menu-nav ul h6 {
+    list-style: none;
+    padding: 4px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+.menu-nav ul li {
+    list-style: none;
+    padding: 4px;
+    /* font-weight: bold; */
+    letter-spacing: 0px;
+    font-size: 15px;
+    display:none;
+    margin-right: 22px;
+}
+
+.menu-nav h4 {
+    font-size: 30px;
+    color: #404040;
+    margin: 45px  14px  18px  14px;
+    /* margin-top: 25px; */
+}
+
+
+.menu-nav p {
+    font-size: 14px;
+    color: #ffc107;
+}
+
+
+.navgition {
+    background: #2c3643;
+    padding: 12px;
+    z-index: 1004;
+    /* box-shadow: -14px 0px 14px 0px #ccc; */
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    right: 80px;
+    font-size: 1px;
+}
+
+
+.menu-nav a {
+    color: #000000d1;
+    text-decoration: none;
+    padding: 7px;
+    display: block;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+
+.menu-nav a i {
+    margin-right: 10px;
+}
+
+
+
+.form-design h3 {
+    margin: 70px 0px 37px 0px;
+    font-weight: 600;
+}
+
+.form-design input, .form-design textarea, .form-design select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #9c9c9cba;
+    border-radius: 3px;
+    outline: none
+}
+
+#files {
+  display: none;
+}
+
+.upload-image {
+    border: 1px solid #9c9c9cba;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    text-align: center;
+}
+
+.upload-image span {
+    display: block;
+    font-size: 24px;
+    background: #000;
+    width: 60px;
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    border-radius: 100px;
+    font-weight: bold;
+    line-height: 52px;
+    margin: auto;
+    margin-bottom: 6px;
+    border: 1px solid;
+}
+
+
+.dashbord input {
+    margin-bottom: 24px;
+    padding: 10px;
+}
+
+.dashbord input[type=radio] {
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.dashbord .form-check-label {
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 16px;
+    padding-top: 0px;
+}
+
+.dashbord label {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.table tr {
+    font-weight: bold;
+}
+
+
+.box-table {
+    background-color: #fff;
+    padding: 20px;
+}
+
+table ul {
+    background: #0000000d;
+    padding: 13px;
+    margin-bottom: 20px;
+}
+
+
+table ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+.count {
+    padding: 47px 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+
+.count  strong {
+    font-weight: bolder;
+    display: block;
+    font-size: 40px;
+}
+
+
+.btn-new {
+    font-size: 13px !important;
+    float: left;
+}
+
+
+.btn-action {
+    font-size: 17px;
+    color: #000;
+    padding: 0px 10px;
+}
+
+/*----------------------- Count Dord ------------------*/
+.count-bord .count {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+
+.count-bord .count strong {
+    display: inline-block;
+    font-size: 40px;
+    margin-top: 30px;
+}
+/*----------------------- Count Dord ------------------*/
+
+
+
+
+
+/*----------------------- invoice_detales ------------------*/
+/*----------------------- invoice_detales ------------------*/
+
+.invoice_detales .box_invoice_detales {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: 0px 0px 17px 0px #cccccc6b;
+}
+
+.invoice_detales .box_invoice_detales img {
+    width: 150px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.company_detales div {
+    /* font-weight: bold; */
+    margin-bottom: 8px;
+}
+
+.company_detales div i {
+    color: #00b74a9c;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.invoice_detales h2 {
+    color: #000;
+    margin-bottom: 30px;
+}
+
+.invoice_detales .box_invoice_detales table {
+    margin-top: 50px;
+}
+
+.invoice_detales .box_invoice_detales thead tr {
+    color: #00b74a;
+    border-bottom: 1px solid #00b74a;
+    font-weight: bold;
+}
